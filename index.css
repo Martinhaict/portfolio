@@ -39,43 +39,40 @@
 
 
 
-.coluna {
+.individual {
 	position: relative;
+	background-color: red;
+
 }
 
 .image {
 	opacity: 1;
 	display: block;
-	widht: 100%;
+	width: 100%;
 	height: auto;
 	transition: .5s ease;
 	backface-visibility: hidden;
 }
 
-.individual {
-	transition: .5s ease;
-	opacity: 0;
+.demasiado {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	opacity: 0;
+	transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%, -50%);
-	text-align: center;
-
 }
 
-.demasiado:houver .img {
-	opacity: 0.3;
+.individual:hover .image {
+	opacity: 0.6;
 }
 
-.demasiado:houver .texto {
+.individual:hover .demasiado {
 	opacity: 1;
 }
 
 .texto {
-	background-color: blueviolet;
-	color: white;
+	color: floralwhite;
 	font-size: 16px;
-	padding: 3px 8px;
 }
 
