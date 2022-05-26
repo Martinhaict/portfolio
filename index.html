@@ -7,13 +7,43 @@
 
 	<link rel="stylesheet" type="text/css" href="index.css">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+	<div id="mySidebar" class="sidebar">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  		<a href="#">About</a>
+  		<a href="#">Services</a>
+  		<a href="#">Clients</a>
+  		<a href="#">Contact</a>
+	</div>
+
+	<div id="main">
+ 		 <!-- <button class="openbtn" onclick="openNav()">☰ <img src="img_new/meulogo.png" style="height: 30px;"></button>  -->
+ 		 <button class="openbtn" onclick="openNav()">☰ MT </button>
+	</div>
+
+	<script>
+		function openNav() {
+ 		document.getElementById("mySidebar").style.width = "250px";
+  		document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+  		document.getElementById("mySidebar").style.width = "0";
+  		document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+
+
 
 	<!-- Fotos todas -->
 	<div class="quadro">
 		<div class="coluna">
-
 
 			<div class="individual">
 				<img src="img/portfolio1.jpeg" class="image" style="width:100%"><div class="demasiado">
@@ -47,7 +77,6 @@
 
 		</div>
 
-		
 		<div class="coluna">
 
 			<div class="individual">
@@ -80,7 +109,6 @@
 				</div>
 			</div>
 		</div>
-
 
 		<div class="coluna">
 
