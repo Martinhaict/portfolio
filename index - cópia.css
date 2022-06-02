@@ -46,6 +46,8 @@ body{
   padding: 10px 15px;
   border: none;
   position: fixed;
+  top: 0;
+  overflow: hidden;
 }
 
 .openbtn:hover {
@@ -112,40 +114,4 @@ body{
 
 
 
-.individual {
-	position: relative;
-	background-color: red;
-
-}
-
-.image {
-	opacity: 1;
-	display: block;
-	width: 100%;
-	height: auto;
-	transition: .5s ease;
-	backface-visibility: hidden;
-}
-
-.demasiado {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	opacity: 0;
-	transform: translate(-50%,-50%);
-	-ms-transform: translate(-50%, -50%);
-}
-
-.individual:hover .image {
-	opacity: 0.6;
-}
-
-.individual:hover .demasiado {
-	opacity: 1;
-}
-
-.texto {
-	color: floralwhite;
-	font-size: 16px;
-}
-
+s

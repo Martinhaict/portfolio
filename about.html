@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto+Slab:wght@300&family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div id="mySidebar" class="sidebar">
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  		<a href="index.html">Home</a>
+  		<a href="about.html">About</a>
+  		<a href="#">Work</a>
+  		<a href="#">Contact</a>
+	</div>
+
+	<div id="main">
+ 		 <!-- <button class="openbtn" onclick="openNav()">☰ <img src="img_new/meulogo.png" style="height: 30px;"></button>  -->
+ 		 <button class="openbtn" onclick="openNav()">☰ MT </button>
+	</div>
+
+	<script>
+		function openNav() {
+ 		document.getElementById("mySidebar").style.width = "250px";
+  		document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+  		document.getElementById("mySidebar").style.width = "0";
+  		document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+
+
+	<h1> About Me </h1>
+
+	<ul>
+		<li> ⭐︎ Martinha Teixeira </li>
+		<li> ⭐︎ 20 anos </li>
+		<li> ⭐︎ Curso Técnico Profissional Design de Comunicação Gráfico 2017/2020</li>
+
+	</ul>
+
+
+</body>
+</html>
