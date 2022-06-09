@@ -51,7 +51,7 @@ body{
 }
 
 .openbtn:hover {
-  background-color: #lightsteelblue;
+  
   font-family: Parisienne;
   font-size: 17px;
 }
@@ -111,7 +111,8 @@ body{
 
 
 
-
-
-
-s
+.tentativa{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
