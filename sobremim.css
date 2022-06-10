@@ -1,6 +1,5 @@
 body{
 	margin: 0;
-	background-color: #FEFDEA;
 }
 
 .sidebar {
@@ -67,11 +66,29 @@ body{
 
 .mim{
   margin: 0 auto;
-  max-width: 500px;
-  padding-top: 80px;
-
+  max-width: 880px;
+  margin-top: 130px;
+  background-color: #FEFDEA;
+  border-left-style: ridge;
+  border-left-color: #F3EEB3;
+  border-left-width: 20px;
 }
+
+.mim h1{
+  font-family: Futura;
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 40px;
+  margin-bottom: 15px;
+}
+
 .mim p{
   font-family: Roboto Slab;
   font-size: 24px;
+  margin-left: 110px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+  margin-right: 100px;
+
 }
+
